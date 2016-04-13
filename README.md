@@ -1,4 +1,4 @@
-# PTP
+# PTP - Pirate Trading Platform
 
 # Install
 
@@ -33,7 +33,7 @@
 	
 	./manual-shutoff
         
-# Downlaod data for analysis
+# Download data for analysis
 RUN is default 1.
 
 	python download-db-csv.py RUN STOCK
