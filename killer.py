@@ -23,10 +23,9 @@ def buy(stock,ask_gap,r):
     #key setup
     import ast
     keys =[]
-    with open('keys') as f:
-        keys = f.read()
-        f.close()
-    keys = ast.literal_eval(keys)
+    f = open('keys')
+    keys = ast.literal_eval(f.read())
+    f.close()
 
     # login
     ## log into robinhood
@@ -81,10 +80,9 @@ def sell(stock,bought_at,risk_appetite,risk_appetite_slope,recovery_appetite,r):
     #key setup
     import ast
     keys =[]
-    with open('keys') as f:
-        keys = f.read()
-        f.close()
-    keys = ast.literal_eval(keys)
+    f = open('keys')
+    keys = ast.literal_eval(f.read())
+    f.close()
 
     # login
     ## log into robinhood

@@ -19,11 +19,10 @@ def gather(stock,count):
     #key setup
     import ast
     keys =[]
-    with open('keys') as f:
-        keys = f.read()
-        f.close()
-    keys = ast.literal_eval(keys)
-
+    f = open('keys')
+    keys = ast.literal_eval(f.read())
+    f.close()
+    
     # login
     ## log into robinhood
     my_trader = Robinhood();
