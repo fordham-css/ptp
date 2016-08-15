@@ -1,7 +1,7 @@
 # Download redis
 wget http://redis.googlecode.com/files/redis-1.2.5.tar.gz
 tar -xvf redis-1.2.5.tar.gz
-		rm redis-1.2.5.tar.gz
+rm redis-1.2.5.tar.gz
 cd redis-1.2.5
 make
 
