@@ -1,5 +1,17 @@
 # PTP - Pirate Trading Platform
 
+# 2.0
+## Roadmap
+
+## Architecture
+
+## Data Flow
+
+## Trading Strategies
+### For Buying
+
+### For Selling
+
 # Install
 
     ./install.sh
